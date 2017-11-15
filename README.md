@@ -1,4 +1,4 @@
-#Hux Blog
+#Thanks to [Hux](https://huangxuan.me) creating this amazing Jekyll theme. 
 
 ###[View Live Hux Blog &rarr;](https://huangxuan.me)
 
