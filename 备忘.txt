@@ -1,0 +1,6 @@
+1. _posts里的文章要严格按照规范来命名，如2017-11-13-hahahahaha.markdown
+
+2.路径是根据文章开头那段YAML里date来自动生成的，比如你Date填的是2017-11-13，则该文章会被放在
+http://127.0.0.1:4000/2017/11/13/hahahahaha/的路径下。如果填的日期大于等于当前日期是不会被生成的（bug？？？）
+
+3. 总共有4种layout可在写文章时定义，default， keynote， page， post
