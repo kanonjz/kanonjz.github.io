@@ -1,6 +1,6 @@
-#Thanks to [Hux](https://huangxuan.me) creating this amazing Jekyll theme. 
+# Thanks to [Hux](https://huangxuan.me) creating this amazing Jekyll theme. 
 
-###[View Live Hux Blog &rarr;](https://huangxuan.me)
+### [View Live Hux Blog &rarr;](https://huangxuan.me)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
