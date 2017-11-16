@@ -3,8 +3,7 @@ title: Kanon Blog
 SEOTitle: Kanon Blog
 header-img: img/home-bg.jpg
 email: kanonjz@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+description: "Kanon"
 url: "https://kanonjz.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -60,8 +59,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: ''            # Format: UA-xxxxxx-xx
+ga_domain: 
 
 
 
@@ -82,4 +81,14 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+# Friends
+friends: [
+    {
+        title: "LeetCode",
+        href: "https://leetcode.com/"
+    },
+    {
+        title: "LintCode",
+        href: "http://www.lintcode.com/zh-cn/problem/"
+    },
+]
