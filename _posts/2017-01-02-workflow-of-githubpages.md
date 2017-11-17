@@ -4,7 +4,7 @@ title:      "Workflow of Github Pages"
 subtitle:   ""
 date:       2017-01-02
 author:     "Kanon"
-header-img: ""
+header-img: "https://images.pexels.com/photos/189199/pexels-photo-189199.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
 catalog: false
 tags:
     - 闲来研究
