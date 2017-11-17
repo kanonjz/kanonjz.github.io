@@ -4,7 +4,7 @@ title:      "浅谈哈希"
 subtitle:   ""
 date:       2017-11-14
 author:     "Kanon"
-header-img: ""
+header-img: "https://images.pexels.com/photos/196657/pexels-photo-196657.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
 catalog: false
 tags:
     - 算法
