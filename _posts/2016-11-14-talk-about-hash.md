@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "浅谈哈希"
+title:      "Talk about Hash"
 subtitle:   ""
 date:       2017-11-14
 author:     "Kanon"
