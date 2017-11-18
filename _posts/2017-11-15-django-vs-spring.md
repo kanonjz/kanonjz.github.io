@@ -4,7 +4,7 @@ title:      "Django vs Spring"
 subtitle:   ""
 date:       2017-11-15
 author:     "Kanon"
-header-img: ""
+header-img: "pexels-photo-140928.jpeg"
 catalog: false
 tags:
     - Django
