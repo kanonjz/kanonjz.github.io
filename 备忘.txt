@@ -6,3 +6,5 @@ http://127.0.0.1:4000/2017/11/13/hahahahaha/的路径下。如果填的日期大
 3. 总共有4种layout可在写文章时定义，default， keynote， page， post
 
 4. 关于添加到桌面，详情参考https://developers.google.com/web/fundamentals/app-install-banners/
+
+5. Progressive Web App是一个值得进一步学习的新兴技术，这个博客就用到了该技术
