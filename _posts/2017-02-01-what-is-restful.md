@@ -4,7 +4,7 @@ title:      "What is RESTful?"
 subtitle:   ""
 date:       2017-07-29
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/630830/pexels-photo-630830.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: ""
 catalog: true
 tags:
     - HTTP
