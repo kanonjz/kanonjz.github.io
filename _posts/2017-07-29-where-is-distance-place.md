@@ -4,7 +4,7 @@ title:      "远方多远"
 subtitle:   ""
 date:       2017-07-29
 author:     "Kanon"
-header-img: "http://ojydvou4n.bkt.clouddn.com/sunny-girl.jpg"
+header-img: "https://images.pexels.com/photos/633276/pexels-photo-633276.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
 catalog: false
 tags:
     - 生活
