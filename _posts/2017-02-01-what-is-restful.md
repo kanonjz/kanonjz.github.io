@@ -13,7 +13,26 @@ tags:
 
 Building RESTful web services, like other programming skills is part art, part science. As the Internet industry progresses, creating a REST API becomes more concrete with emerging best practices. As RESTful web services don't follow a prescribed standard except for HTTP, it's important to build your RESTful API in accordance with industry best practices to ease development and increase client adoption.
 
-### Common HTTP Response Status Codes
+## What is RESTful
+REST is short for Representational State Transfer.   
+Briefly, RESTful is a style of creating web service, it has no technically constraints.  
+But there  are a few recommended REST-like concepts. These six quick tips will result in better, more usable services.
+
+## six practical ways to make your web RESTful
+1.Use HTTP Verbs to Make Your Requests Mean Something
+
+2.Provide Sensible Resource Names
+
+3.Use HTTP Response Codes to Indicate Status
+
+4.Create Fine-Grained Resources
+
+5.Offer Both JSON and XML
+
+6.Consider Connectedness
+
+
+## Common HTTP Response Status Codes
 - **200 OK**<br>
 General success status code. This is the most common code. Used to indicate success.
 
