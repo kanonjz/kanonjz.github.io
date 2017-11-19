@@ -4,7 +4,7 @@ title:      "远方多远"
 subtitle:   ""
 date:       2017-07-29
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/633276/pexels-photo-633276.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/287240/pexels-photo-287240.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
 catalog: false
 tags:
     - 生活
