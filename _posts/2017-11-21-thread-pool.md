@@ -1,4 +1,14 @@
-
+---
+layout:     post
+title: "Java线程池"
+subtitle:   ""
+date:       2017-11-21
+author:     "Kanon"
+header-img: "https://images.pexels.com/photos/656195/pexels-photo-656195.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+catalog: false
+tags:
+    - Java
+---
 
 # 线程池
 顾名思义，就是存放线程的地方。如果没有线程池，我们在使用线程时需要去创建，使用完后还得销毁，整个过程是很耗费时间和资源的。有了线程池之后，就可以直接从线程池中获得线程。简单地理解，ExecutorService的实例就是线程池。
