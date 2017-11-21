@@ -89,10 +89,16 @@ ExecutorService exec = Executors.newFixedThreadPool(5);
 2. 若当前线程池中线程数>=corepoolsize，会尝试将任务添加到任务缓存队列中去，若添 加成功，则任务会等待空闲线程将其取出执行，若添加失败，则尝试创建线程去执行这个任 务。 
 
 3. 若当前线程池中线程数>= Maximumpoolsize，则采取拒绝策略（有 4 种）  
-    1）abortpolicy 丢 弃任务，抛出 RejectedExecutionException  
-    2）discardpolicy 拒绝执行，不抛异常  
-    3）discardoldestpolicy 丢弃任务缓存队列中最老的任务，并且尝试重新提交新的任务  
-    4）callerrunspolicy 有反馈机制，使任务提交的速度变慢  
+    1）`abortpolicy` 丢 弃任务，抛出 RejectedExecutionException  
+    2）`discardpolicy` 拒绝执行，不抛异常  
+    3）`discardoldestpolicy` 丢弃任务缓存队列中最老的任务，并且尝试重新提交新的任务  
+    4）`callerrunspolicy` 有反馈机制，使任务提交的速度变慢  
 
 ## 参考
 ImportNew:[深入理解Java之线程池](http://www.importnew.com/19011.html)
+
+
+
+
+
+
