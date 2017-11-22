@@ -6,7 +6,7 @@ date:       2017-11-22
 author:     "Kanon"
 header-img: "https://images.pexels.com/photos/2326/fashion-person-woman-taking-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb"
 tags:
-    - java
+    - Java
 ---
 
 The number of times this list has been <i>structurally modified</i>.Structural modifications are those that change the size of the list, or otherwise perturb it in such a fashion that iterations in progress may yield incorrect results.
