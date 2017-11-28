@@ -62,7 +62,7 @@ interface Bicycle {
 ```
 To implement this interface, the name of your class would change (to a particular brand of bicycle, for example, such as ACMEBicycle), and you'd use the implements keyword in the class declaration:
 ```
-lass ACMEBicycle implements Bicycle {
+class ACMEBicycle implements Bicycle {
 
     int cadence = 0;
     int speed = 0;
