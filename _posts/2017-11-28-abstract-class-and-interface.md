@@ -115,3 +115,5 @@ Interfaces form a contract between the class and the outside world, and this con
 importNew：[Java抽象类与接口的区别](http://www.importnew.com/12399.html)  
 
 stackoverflow：[Why are all fields in an interface implicitly static and final?](https://stackoverflow.com/questions/1513520/why-are-all-fields-in-an-interface-implicitly-static-and-final)
+
+<br><br><br><br>
