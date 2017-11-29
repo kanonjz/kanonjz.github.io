@@ -4,7 +4,7 @@ title:      "浅谈多态"
 subtitle:   ""
 date:       2017-11-29
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/147357/pexels-photo-147357.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/669517/pexels-photo-669517.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
 tags:
     - Java
     - C++
@@ -103,3 +103,5 @@ f(1,2);
 
 ### 参考资料
 [polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
+
+<br><br><br><br>
