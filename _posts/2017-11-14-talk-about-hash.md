@@ -51,3 +51,4 @@ HashMap里的扰动函数，目的是为了减小冲突概率。
 
 ## 参考
 [Java提高篇之hashCode](http://www.importnew.com/20381.html)
+<br><br><br><br>
