@@ -84,15 +84,15 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "薇拉航线",
-        href: "http://www.zuozuovera.cn/"
-    },
-    {
         title: "LeetCode",
         href: "https://leetcode.com/"
     },
     {
         title: "LintCode",
         href: "http://www.lintcode.com/zh-cn/problem/"
+    },
+    {
+        title: "薇拉航线",
+        href: "http://www.zuozuovera.cn/"
     },
 ]
