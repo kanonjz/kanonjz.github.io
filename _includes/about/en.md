@@ -5,7 +5,7 @@
 
 Hi, I am **Kanon**, mixture of programmer, marathon runner, climber. I like coding, reading and travelling. I hope I always have the courage to follow my heart and intuition, somehow already know what I truly want to become. And everything else is secondary.
 
-### Contact Me
+#### Contact Me
 - Email: Kanonjz@gmail.com
 - WeChat: kanonjz
 <br><br><br><br><br>
