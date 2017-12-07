@@ -46,4 +46,7 @@ Containers can share a single kernel, and the only information that needs to be 
 
 ## 应用场景
 虚拟机更擅长于彻底隔离整个运行环境。例如，云服务提供商通常采用虚拟机技术隔离不同的用户。而Docker通常用于隔离不同的应用，例如前端，后端以及数据库。
+
+## 附上可爱的Docker鲸鱼
+![docker](http://oyrpkn4bk.bkt.clouddn.com/docker.png)
 <br><b><br><br>
