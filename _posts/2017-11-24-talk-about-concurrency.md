@@ -21,7 +21,17 @@ tags:
 第一种方法是`互斥同步`，也就是所谓的通过加锁来控制，synchronized关键字和Lock都是常见的“锁”，再搭配上volatile来使用，volatile可以保证变量的可见性和禁止指令重排序（当然synchronized也具有可见性）。而Lock与synchronized相比主要有三点优势：1）等待可中断 2）可实现公平锁 3）锁可绑定多个条件。
 
 
-第二种方法是`非阻塞同步`，这是一种乐观的策略，就是先进行操作，如果没有其它线程进行争用共享数据，那操作就成功了；如果共享数据有争用，产生了冲突，那就采取补偿措施（最常见的补偿措施是不断地重试，直到成功为止），这种乐观的并发策略的许多实现都不要把线程挂起，因此这种同步操作成为非阻塞同步（Non-Blocking Synchronization）
+第二种方法是`非阻塞同步`，这是一种乐观的策略，就是先进行操作，如果没有其它线程进行争用共享数据，那操作就成功了；如果共享数据有争用，产生了冲突，那就采取补偿措施（最常见的补偿措施是不断地重试，直到成功为止），这种乐观的并发策略的实现不需要把线程挂起，因此称为非阻塞同步。典型的例子，`java.util.concurrent.atomic`包下面的`AotmicInteger`有一个方法`incrementAndGet`，它采取的就是非阻塞同步的策略，代码如下:
+```
+public final int incrementAndGet() {
+    for (;;) {
+        int current = get();
+        int next = current + 1;
+        if (compareAndSet(current, next))
+            return next;
+    }
+}
+```
 
 第三种是`无同步方案`。这种方案不涉及共享数据，暂且不谈。
 
