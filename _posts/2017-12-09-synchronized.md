@@ -4,7 +4,7 @@ title:      "synchronized关键字的三种用法"
 subtitle:   ""
 date:       2017-12-09
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/69020/pexels-photo-69020.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?w=1260&h=750&auto=compress&cs=tinysrgb"
 tags:
     - Java
     - 并发
@@ -97,7 +97,7 @@ public class FirstThread implements Runnable{
 <br>
 
 ## 重点！！！
-1. `synchronized`修饰非静态方法、代码块synchronized (this)和synchronized (非this对象)，加锁的是对象-------**对象锁**
-2. `synchronized`修饰静态方法、代码块的synchronized (类.class)用法锁的是类--------------------------------**类锁**
+1. **对象锁**：`synchronized`修饰非静态方法、代码块synchronized (this)和synchronized (非this对象)，加锁的是对象
+2. **类锁**：`synchronized`修饰静态方法、代码块的synchronized (类.class)用法锁的是类
 
 <br><br><br><br>
