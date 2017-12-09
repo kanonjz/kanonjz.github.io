@@ -98,6 +98,6 @@ public class FirstThread implements Runnable{
 
 ## 重点！！！
 1. **对象锁**：`synchronized`修饰非静态方法、代码块synchronized (this)和synchronized (非this对象)，加锁的是对象
-2. **类锁**：`synchronized`修饰静态方法、代码块的synchronized (类.class)用法锁的是类
+2. **类锁**：`synchronized`修饰静态方法、代码块的synchronized (类.class)用法，加锁的是类
 
 <br><br><br><br>
