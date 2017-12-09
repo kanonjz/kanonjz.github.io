@@ -2,9 +2,9 @@
 layout:     post
 title:      "synchronized关键字的三种用法"
 subtitle:   ""
-date:       2017-01-01
+date:       2017-12-09
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/38197/pexels-photo-38197.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/69020/pexels-photo-69020.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
 tags:
     - Java
     - 并发
