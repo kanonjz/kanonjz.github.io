@@ -12,8 +12,8 @@ tags:
 ## 抽象类与接口
 
 ### 抽象方法
-要讲抽象类与接口，我们得先从抽象方法说起。    
-来看官方文档的定义:  
+要讲抽象类与接口，我们得先从抽象方法说起。  
+来看官方文档的定义:  
 An abstract method is a method that is declared without an implementation (without braces, and followed by a semicolon), like this:
 ```
 abstract void moveTo(double deltaX, double deltaY);
