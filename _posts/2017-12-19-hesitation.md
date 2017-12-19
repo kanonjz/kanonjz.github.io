@@ -4,14 +4,12 @@ title:      "纠结DAY"
 subtitle:   ""
 date:       2017-12-19
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/707408/pexels-photo-707408.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/707837/pexels-photo-707837.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
 tags:
     - 生活
 ---
 
 这大概是自己因为纠结而变得很糟糕的一天。
-
-幸运的是自己遇到了一群很nice的前辈以及同龄人，积极地给你提建议和出谋划策。
 
 未来真的无法考虑得面面俱到。选择，重要吗？很重要。但没有做出选择之前你永远无法知道两条分叉路将把你带向何方。
 
