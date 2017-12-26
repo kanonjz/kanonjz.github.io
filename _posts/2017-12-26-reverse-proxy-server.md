@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "What is reverse proxy server"
+title:      "What Is Reverse Proxy Server"
 subtitle:   ""
 date:       2017-12-26
 author:     "Kanon"
