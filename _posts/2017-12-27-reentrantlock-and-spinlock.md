@@ -58,7 +58,7 @@ public class TestUnreetrantLock{
 
 Java里常见的可重入锁：`synchronized`、`ReentrantLock`
 
-`synchronize`的用法参考另一篇文章[]()
+`synchronize`的用法参考另一篇文章[synchronized关键字的三种用法](https://kanonjz.github.io/2017/12/09/synchronized/)
 
 ### 自旋锁
 含义：在获得不到锁的情况下，会让当前线程一直做空循环，避免进入阻塞状态
@@ -92,6 +92,7 @@ public class SpinLock {
     }
 }
 ```
+
 注意两点：
 - 为了避免不可重入，在lock的时候需要判断操作的是否是同一线程
 - 为了避免第一次unlock的时候就将锁释放掉了，采用计数进行统计（有点类似信号量的方式）
