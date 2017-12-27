@@ -12,7 +12,7 @@ tags:
 
 要讲可重入锁，还得先从不可重入锁讲起。先来看不可重入锁的例子：
 ### 不可重入锁
-我们自己定义的不可重入锁
+我们自己定义的不可重入锁：
 ```
 public class Lock{
     private boolean isLocked = false;
@@ -31,7 +31,7 @@ public class Lock{
     }
 }
 ```
-使用可重入锁
+使用可重入锁：
 ```
 public class TestUnreetrantLock{
     Lock lock = new Lock();
