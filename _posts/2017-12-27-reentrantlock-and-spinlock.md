@@ -4,7 +4,7 @@ title:      "可重入锁与自旋锁"
 subtitle:   ""
 date:       2017-12-27
 author:     "Kanon"
-header-img: "/img/post-bg-2015.jpg"
+header-img: "https://images.pexels.com/photos/744974/pexels-photo-744974.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
 tags:
     - Java
     - 并发
