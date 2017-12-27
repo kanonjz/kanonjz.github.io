@@ -103,8 +103,8 @@ public class SpinLock {
 3. 锁可绑定多个条件
 
 ## 参考文章
-cnblogs：[可重入锁 & 自旋锁 & Java里的AtomicReference和CAS操作 & Linux mutex不可重入](https://www.cnblogs.com/charlesblc/p/6188364.html)
-知乎：[java的可重入锁用在哪些场合？](https://www.zhihu.com/question/23284564) 
-ifeve：[Java锁的种类以及辨析（四）：可重入锁](http://ifeve.com/java_lock_see4/)
-cnblogs：[锁的简单应用](https://www.cnblogs.com/dj3839/p/6580765.html)
+cnblogs：[可重入锁 & 自旋锁 & Java里的AtomicReference和CAS操作 & Linux mutex不可重入](https://www.cnblogs.com/charlesblc/p/6188364.html)  
+知乎：[java的可重入锁用在哪些场合？](https://www.zhihu.com/question/23284564)  
+ifeve：[Java锁的种类以及辨析（四）：可重入锁](http://ifeve.com/java_lock_see4/)  
+cnblogs：[锁的简单应用](https://www.cnblogs.com/dj3839/p/6580765.html)  
 <br><br><br><br>
