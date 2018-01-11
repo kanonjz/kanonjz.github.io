@@ -1,15 +1,14 @@
 ---
 layout:     post
-title:      "Hello World"
+title:      "浅谈C++中的复制构造函数"
 subtitle:   ""
 date:       2018-01-11
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/761394/pexels-photo-761394.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/754339/pexels-photo-754339.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
 tags:
     - C++
 ---
 
-## 浅谈C++中的复制构造函数
 ### 什么是复制构造函数？
 - 使用已存在的对象作为新对象的复制模板
 - 如果不自己定义复制构造函数，编译器会自动为该类生成`隐式缺省复制构造函数`
@@ -44,3 +43,4 @@ class array {
 }
 ```
 从例子中可以看出，深复制是复制了一份资源副本。
+<br><br><br><br>
