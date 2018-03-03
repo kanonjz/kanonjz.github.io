@@ -31,7 +31,7 @@ public class Lock{
     }
 }
 ```
-使用可重入锁：
+使用不可重入锁：
 ```
 public class TestUnreetrantLock{
     Lock lock = new Lock();
