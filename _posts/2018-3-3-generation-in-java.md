@@ -4,7 +4,7 @@ title:  "Java虚拟机中的分代"
 subtitle:   ""
 date:       2018-03-03
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/910154/pexels-photo-910154.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/245239/pexels-photo-245239.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
 tags:
     - Java
 ---
