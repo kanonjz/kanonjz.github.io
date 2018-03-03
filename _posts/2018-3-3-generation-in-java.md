@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Java虚拟机中的分代"
+title:  "Java虚拟机中的分代"
 subtitle:   ""
 date:       2018-03-03
 author:     "Kanon"
