@@ -1,7 +1,7 @@
 # Site settings
 title: Kanon Blog
 SEOTitle: Kanon Blog
-header-img: "https://images.pexels.com/photos/910154/pexels-photo-910154.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
+header-img: https://images.pexels.com/photos/910154/pexels-photo-910154.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb
 email: kanonjz@gmail.com
 description: "Kanon"
 url: "https://kanonjz.github.io"              # your host, for absolute URL
