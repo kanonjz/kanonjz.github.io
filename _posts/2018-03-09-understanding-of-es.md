@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "ElasticSearch理解(1)"
+title:      "ElasticSearch理解（一）"
 subtitle:   ""
 date:       2018-03-09
 author:     "Kanon"
