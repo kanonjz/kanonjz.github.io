@@ -4,7 +4,7 @@ title: "ElasticSearch理解（一）"
 subtitle:   ""
 date:       2018-03-09
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/106400/pexels-photo-106400.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+header-img: "https://images.pexels.com/photos/672916/pexels-photo-672916.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb"
 tags:
 - ES
 ---
