@@ -8,7 +8,7 @@ header-img: "https://images.pexels.com/photos/672916/pexels-photo-672916.jpeg?w=
 tags:
 - ES
 ---
-ElasticSearch是一个基于Lucene的分布式全文搜索引擎。Elastic 的底层是开源库 Lucene，但是，你没法直接用 Lucene，必须自己写代码去调用它的接口。Elastic 是 Lucene 的封装，提供了 REST API 的操作接口，开箱即用。
+ElasticSearch是一个基于Lucene的分布式全文搜索引擎。ElasticSearch 的底层是开源库 Lucene，但是，你没法直接用 Lucene，必须自己写代码去调用它的接口。ElasticSearch 是 Lucene 的封装，提供了 REST API 的操作接口，开箱即用。
 
 ## ES优点
 1. 全文搜索引擎。有一个score对搜索结果的相关度进行评估。
