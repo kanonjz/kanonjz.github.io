@@ -93,4 +93,4 @@ GET _cluster/health
 
 ## 参考
 [官网：Basic Concepts](https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html)  
-
+<br><br><br><br>
