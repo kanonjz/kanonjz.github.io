@@ -31,6 +31,13 @@ But there  are a few recommended REST-like concepts. These six quick tips will r
 
 6.Consider Connectedness
 
+## 4 HTTP Verbs
+- GET
+- POST
+- PUT
+- DELETE
+
+The biggest difference between POST and PUT is that PUT is idempotent while POST isn't idempotent.
 
 ## Common HTTP Response Status Codes
 - **200 OK**<br>
