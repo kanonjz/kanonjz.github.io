@@ -83,5 +83,6 @@ version of the document, in real-time.
 ## 参考
 [Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)  
 [Translog](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules-translog.html)  
+[Inside a Shard](https://www.elastic.co/guide/en/elasticsearch/guide/current/inside-a-shard.html)
 
 <br><br><br><br>
