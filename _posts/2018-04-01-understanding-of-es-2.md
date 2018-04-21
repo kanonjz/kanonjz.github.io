@@ -31,15 +31,11 @@ the     |   X   |  X
 当倒排索引被加载进内存后，就会一直存在。只要内存空间足够大，所有的读操作就都是在内存中进行，速度之快可想而知。
 
 ## 索引更新机制
-1. 新增的文档被提交到in-memory buffer
-
-![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1101.png)
-
-2. Transaction log会同步记下所有ES的操作
+1. 新增的文档被提交到in-memory buffer，Transaction log会同步记下所有ES的操作
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1106.png)
 
-3. in-memory buffer里的文档被refresh进新的segment，注意，此时新增的文档已经可以被搜索到，但仍在内存里还没持久化到磁盘中。
+2. in-memory buffer里的文档被refresh进新的segment，注意，此时新增的文档已经可以被搜索到，但仍在内存里还没持久化到磁盘中。
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1107.png)
 
@@ -52,6 +48,8 @@ the     |   X   |  X
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1109.png)
 
 ## segment merging
+
+## 文档删除与修改
 
 ## 两个文件
 Commit point：
