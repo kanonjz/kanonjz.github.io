@@ -1,3 +1,13 @@
+---
+layout:     post
+title: "ElasticSearch理解（二）"
+subtitle:   ""
+date:       2018-04-01
+author:     "Kanon"
+header-img: "https://images.pexels.com/photos/843256/pexels-photo-843256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+tags:
+- ES
+---
 ## 倒排索引
 ES使用倒排索引来加速全文检索。一个倒排索引由两部分组成：在文档中出现的所有不同的词以及对每个词，它所出现的文档的列表。例如：如果我们有两个文档，每一个文档有一个content字段，包含的内容如下：
 
