@@ -62,20 +62,17 @@ the     |   X   |  X
 ## 文档删除与修改
 
 ## 两个文件
-Commit point：a file that lists all known segments
+（1）Commit point：a file that lists all known segments
 
-Translog：
-```
-The translog provides a persistent record of all operations that have not yet been flushed to disk. When starting up, 
-Elasticsearch will use the last commit point to recover known segments from disk, and will then replay all operations in the 
-translog to add the changes that happened after the last commit.  
-The translog is also used to provide real-time CRUD. When you try to retrieve, update, or delete a document by ID, it first 
-checks the translog for any recent changes before trying to retrieve the document from the relevant segment. This means that 
-it always has access to the latest known version of the document, in real-time.
-```
+（2）Translog：The translog provides a persistent record of all operations that have not yet been flushed to disk. When 
+starting up, Elasticsearch will use the last commit point to recover known segments from disk, and will then replay all 
+operations in the translog to add the changes that happened after the last commit.  The translog is also used to provide real-
+time CRUD. When you try to retrieve, update, or delete a document by ID, it first checks the translog for any recent changes 
+before trying to retrieve the document from the relevant segment. This means that it always has access to the latest known 
+version of the document, in real-time.
 
 ## 三个关键操作Refresh、Flush、Segment Merging
-### 触发时机
+#### 触发时机
 - Refresh：默认每秒进行一次
 - Flush：默认每30分钟或当translog大于512MB
 - Segment Merging：官网上并没明确说明进行时机，摘抄下原话：It happens automatically while you are indexing and searching. （这里面涉及到参数的调整，参考[文章](https://www.jianshu.com/p/9b872a41d5bb)）
