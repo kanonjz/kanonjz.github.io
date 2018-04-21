@@ -41,19 +41,19 @@ the     |   X   |  X
 当倒排索引被加载进内存后，就会一直存在。只要内存空间足够大，所有的读操作就都是在内存中进行，速度之快可想而知。
 
 ## 索引更新机制
-1. 新增的文档被提交到in-memory buffer，Transaction log会同步记下所有ES的操作
+（1）新增的文档被提交到in-memory buffer，Transaction log会同步记下所有ES的操作
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1106.png)
 
-2. in-memory buffer里的文档被refresh进新的segment，注意，此时新增的文档已经可以被搜索到，但仍在内存里还没持久化到磁盘中。
+（2）in-memory buffer里的文档被refresh进新的segment，注意，此时新增的文档已经可以被搜索到，但仍在内存里还没持久化到磁盘中。
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1107.png)
 
-3. 不断有新文档提交，Transaction log文件越来越大
+（3）不断有新文档提交，Transaction log文件越来越大
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1108.png)
 
-4. 进行flush操作也就是将数据写进磁盘，新的segment被记录进commit point，删除旧的translog，生成新的translog，清空in-memory buffer。
+（4）进行flush操作也就是将数据写进磁盘，新的segment被记录进commit point，删除旧的translog，生成新的translog，清空in-memory buffer。
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1109.png)
 
@@ -91,3 +91,4 @@ it always has access to the latest known version of the document, in real-time.
 [Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)  
 [Translog](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules-translog.html)  
 
+<br><br><br><br>
