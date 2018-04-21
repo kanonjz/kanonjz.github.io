@@ -24,7 +24,7 @@ ElasticSearch是一个基于Lucene的分布式全文搜索引擎。ElasticSearch
 每一个节点也通过名字来唯一标识，默认情况下节点在启动时会被分配一个随机的标识。
 
 ## 分片（shard）
-- 当一个index过大，或者基于性能、容灾的考虑时，就需要将index划分成多个分片（shard）
+- 当一个index过大，或者基于性能、容灾的考虑时，就需要将index划分成多个分片（shard），并分发到多个机器上
 - 一个分片就是一个Lucene的实例，它本身就是一个完整的搜索引擎
 - 分片是数据的容器，文档保存在分片内，分片又被分配到集群内的各个节点里。
 - 技术上来说，一个主分片最大能够存储 Integer.MAX_VALUE - 128 个文档。
@@ -57,8 +57,8 @@ GET case/_mapping
 - _type:文档表示的对象类别
 - _id:文档唯一标识
 
-#### 删除文档
-删除文档不会立即将文档从磁盘中删除，只是将文档标记为已删除状态。随着你不断的索引更多的数据，Elasticsearch 将会在后台清理标记为已删除的文档。
+## 段（Segment）
+elasticsearch中的每个分片包含多个segment，每一个segment都是一个倒排索引。在查询的时，会把所有的segment查询结果汇总归并后最为最终的分片查询结果返回。
 
 #### 并发控制
 ES本身提供了版本机制，每一个文档都有一个version字段。所有文档的更新或删除 API，都可以接受 version 参数。举个例子，在更新数据时，先读取这个版本号，在更新时指定要更新的版本号，如果最新版本号大于之前读取的版本号，说明有人改过，我们可能就要重新读取数据来修改。  
@@ -95,4 +95,5 @@ GET _cluster/health
 
 ## 参考
 [官网：Basic Concepts](https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html)  
+[Elasticsearch学习总结--原理篇](http://www.shaheng.me/blog/2015/06/elasticsearch--.html)  
 <br><br><br><br>
