@@ -36,7 +36,7 @@ the     |   X   |  X
 
 ## 三个关键操作Refresh、Flush、Segment Merging
 ### 触发时机
-- Refresh默认每秒进行一次Refresh
+- Refresh：默认每秒进行一次
 - Flush：默认每30分钟或当translog大于512MB
 - Segment Merging：官网上并没明确说明进行时机，摘抄下原话：It happens automatically while you are indexing and searching. （这里面涉及到参数的调整，参考[文章](https://www.jianshu.com/p/9b872a41d5bb)）
 
