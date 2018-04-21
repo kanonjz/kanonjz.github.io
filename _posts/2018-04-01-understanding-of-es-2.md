@@ -35,4 +35,4 @@ the     |   X   |  X
 ### 索引更新机制
 
 ## 参考
-![Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)
+[Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)
