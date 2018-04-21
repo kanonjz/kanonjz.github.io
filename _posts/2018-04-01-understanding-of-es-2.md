@@ -62,9 +62,9 @@ the     |   X   |  X
 ## 文档删除与修改
 
 ## 两个文件
-（1）Commit point：a file that lists all known segments
+（1）`Commit point`：a file that lists all known segments
 
-（2）Translog：The translog provides a persistent record of all operations that have not yet been flushed to disk. When 
+（2）`Translog`：The translog provides a persistent record of all operations that have not yet been flushed to disk. When 
 starting up, Elasticsearch will use the last commit point to recover known segments from disk, and will then replay all 
 operations in the translog to add the changes that happened after the last commit.  The translog is also used to provide real-
 time CRUD. When you try to retrieve, update, or delete a document by ID, it first checks the translog for any recent changes 
