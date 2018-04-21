@@ -1,5 +1,4 @@
 ## 倒排索引
-### 什么是倒排索引
 ES使用倒排索引来加速全文检索。一个倒排索引由两部分组成：在文档中出现的所有不同的词以及对每个词，它所出现的文档的列表。例如：如果我们有两个文档，每一个文档有一个content字段，包含的内容如下：
 
 1.The quick brown fox jumped over the lazy dog
@@ -29,10 +28,36 @@ the     |   X   |  X
 ------------------------
 ```
 
-### 持久性
-
+当倒排索引被加载进内存后，就会一直存在。只要内存空间足够大，所有的读操作就都是在内存中进行，速度之快可想而知。
 
 ## 索引更新机制
+1. 新增的文档被提交到in-memory buffer
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1101.png)
+
+2. Transaction log会同步记下所有ES的操作
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1106.png)
+
+3. in-memory buffer里的文档被refresh进新的segment，注意，此时新增的文档已经可以被搜索到，但仍在内存里还没持久化到磁盘中。
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1107.png)
+
+3. 不断有新文档提交，Transaction log文件越来越大
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1108.png)
+
+4. 进行flush操作也就是将数据写进磁盘，新的segment被记录进commit point，删除旧的translog，生成新的translog，清空in-memory buffer。
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1109.png)
+
+## 两个文件
+Commit point：
+```
+a file that lists all known segments
+```
+
+Translog：
+```
+The translog provides a persistent record of all operations that have not yet been flushed to disk. When starting up, Elasticsearch will use the last commit point to recover known segments from disk, and will then replay all operations in the translog to add the changes that happened after the last commit.
+
+The translog is also used to provide real-time CRUD. When you try to retrieve, update, or delete a document by ID, it first checks the translog for any recent changes before trying to retrieve the document from the relevant segment. This means that it always has access to the latest known version of the document, in real-time.
+```
 
 ## 三个关键操作Refresh、Flush、Segment Merging
 ### 触发时机
