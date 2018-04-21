@@ -32,7 +32,12 @@ the     |   X   |  X
 ### 持久性
 
 
-### 索引更新机制
+## 索引更新机制
+
+## 三个关键操作Refresh、Flush、Segment Merging
+
+## 为什么说ES的搜索时近实时（Near Real-time）
+> Elasticsearch has near real-time search: document changes are not visible to search immediately, but will become visible within 1 second.
 
 ## 参考
 [Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)
