@@ -51,7 +51,7 @@ GET case/_mapping
 ## 文档（document）
 一个文档本质上就是一个被序列化为键值对的 JSON 对象。它是指最顶层或者根对象, 这个根对象被序列化成 JSON 并存储到 Elasticsearch 中，指定了唯一ID。
 
-#### 文档三个必须的元数据
+**文档三个必须的元数据**
 使用以下三个组合就可以唯一确定一个文档。当你创建一个新的文档时，要么提供自己的_id，要么让ES帮你生成。
 - _index：文档在哪存放
 - _type:文档表示的对象类别
@@ -60,7 +60,7 @@ GET case/_mapping
 ## 段（Segment）
 elasticsearch中的每个分片包含多个segment，每一个segment都是一个倒排索引。在查询的时，会把所有的segment查询结果汇总归并后最为最终的分片查询结果返回。
 
-#### 并发控制
+## 并发控制
 ES本身提供了版本机制，每一个文档都有一个version字段。所有文档的更新或删除 API，都可以接受 version 参数。举个例子，在更新数据时，先读取这个版本号，在更新时指定要更新的版本号，如果最新版本号大于之前读取的版本号，说明有人改过，我们可能就要重新读取数据来修改。  
 [官网文章](https://www.elastic.co/guide/cn/elasticsearch/guide/current/version-control.html)
 
