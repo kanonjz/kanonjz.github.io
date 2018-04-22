@@ -69,7 +69,7 @@ the     |   X   |  X
 
 segment merging完成，新的segment被flush写入磁盘。
 
-！[](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1111.png)
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1111.png)
 
 ## 两个文件
 （1）`Commit point`：a file that lists all known segments
