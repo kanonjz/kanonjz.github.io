@@ -57,9 +57,19 @@ the     |   X   |  X
 
 ![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1109.png)
 
-## segment merging
-
 ## 文档删除与修改
+每一个segment都是不可变的，所以一旦有文档被删除时，segment是无法同步进行修改的。  
+事实上，我们在ES里删除文档时并非真正删除，而是将其标记为deleted。每一个commit point都包含一个`.del`文件，文件里标记着哪些文档被删除以及对应所处的segment。在进行检索时，依然会检索到被删除的文档，不过会在结果返回时被过滤掉。  
+文档更新同理，旧的文档被标记为deleted，新版本的文档会被放到新的segment里面。在检索时新旧文档可能同时匹配，但是旧的文档会被过滤出结果集。
+
+## segment merging
+每一次Refresh操作都会新建一个segment，不需要多久，segment就会越积越多。每一个segment都会消耗掉内存和cpu资源，且segment越多，ES的检索速度越慢。为了解决这种情况，ES会在后台不断地进行segment的合并，将小的segment复制并合并成大的segment。对于那些老的标记为删除的segment将会被清除（文档真正被删除），且不会被合并到新的segment里。
+
+![](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1110.png)
+
+segment merging完成，新的segment被flush写入磁盘。
+
+！[](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_1111.png)
 
 ## 两个文件
 （1）`Commit point`：a file that lists all known segments
