@@ -88,7 +88,7 @@ version of the document, in real-time.
 - Segment Merging：官网上并没明确说明进行时机，摘抄下原话：It happens automatically while you are indexing and searching. （这里面涉及到参数的调整，参考[文章](https://www.jianshu.com/p/9b872a41d5bb)）
 
 ## 为什么说ES的搜索时近实时（Near Real-time）
-> Elasticsearch has near real-time search: document changes are not visible to search immediately, but will become visible within 1 second.
+> Elasticsearch has near real-time search: document changes are not visible to search immediately, but will become visible within 1 second(refresh every minute).
 
 ## 参考
 [Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)  
