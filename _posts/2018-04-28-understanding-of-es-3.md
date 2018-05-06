@@ -1,3 +1,13 @@
+---
+layout:     post
+title: "ElasticSearch理解（三）"
+subtitle:   ""
+date:       2018-05-01
+author:     "Kanon"
+header-img: "https://images.pexels.com/photos/694629/pexels-photo-694629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+tags:
+- ES
+---
 ## 将文档存储到某个shard（Routing a Document to a Shard）
 当我们新建一个文档时，ES是如何知道将它保存在哪个primary shard里呢？  
 这里有一个计算公式：
