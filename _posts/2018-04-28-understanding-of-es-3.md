@@ -19,7 +19,7 @@ shard = hash(routing) % number_of_primary_shards
 **应用场景**：手动设置`routing`的值，将属于某个用户的文档都存放在同一个shard里面。
 
 ## 分布式搜索原理
-分布式搜索包括两个步骤：查询（Query）和取回（Fetch）
+分布式搜索包括两个步骤：查询（Query）和取回（Fetch）。
 
 以如下请求为例：
 ```
@@ -31,7 +31,7 @@ GET /_search
 ```
 
 #### 查询阶段
-主要是在各个分片上执行搜索，并将结果返回给协调节点
+主要是在各个分片上执行搜索，并将结果返回给协调节点。
 
 ![Query](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0901.png)
 
@@ -42,7 +42,7 @@ GET /_search
 3）每一个分片将文档的ID以及该文档在本地优先级队列中的排序值返回给协调节点NODE3（注意这一步并非返回完整文档），NODE3会把这些值合并到总的优先级队列里产生全局的排序结果（类似归并排序）。
 
 #### 取回阶段
-既然在第一步中我们已经在协调节点NODE3里建立起了全局优先队列，那么下一步就是要取出真正的文档内容
+既然在第一步中我们已经在协调节点NODE3里建立起了全局优先队列，那么下一步就是要取出真正的文档内容。
 
 ![Fetch](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0902.png)
 
@@ -50,6 +50,6 @@ GET /_search
 
 2）每个收到GET请求的shard会加载文档内容并将其返回给协调节点NODE3。
 
-3）一旦所有文档都被取回，NODE3就会将最终结果集返回给客户端。
+3）当NODE3获取到了所有shard返回的文档后，NODE3将它们合并成最终的结果集，返回给客户端。
 
 <br><br><br><br>
