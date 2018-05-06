@@ -4,7 +4,7 @@ title: "ElasticSearch理解（三）"
 subtitle:   ""
 date:       2018-05-01
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/694629/pexels-photo-694629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+header-img: "https://images.pexels.com/photos/1040471/pexels-photo-1040471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 tags:
 - ES
 ---
@@ -30,7 +30,8 @@ GET /_search
 }
 ```
 
-1. 查询阶段：主要是在各个分片上执行搜索，并将结果返回给协调节点
+#### 查询阶段
+主要是在各个分片上执行搜索，并将结果返回给协调节点
 
 ![Query](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0901.png)
 
@@ -40,7 +41,8 @@ GET /_search
 
 3）每一个分片将文档的ID以及该文档在本地优先级队列中的排序值返回给协调节点NODE3（注意这一步并非返回完整文档），NODE3会把这些值合并到总的优先级队列里产生全局的排序结果（类似归并排序）。
 
-2. 取回阶段：既然在第一步中我们已经在协调节点NODE3里建立起了全局优先队列，那么下一步就是要取出真正的文档内容
+#### 取回阶段
+既然在第一步中我们已经在协调节点NODE3里建立起了全局优先队列，那么下一步就是要取出真正的文档内容
 
 ![Fetch](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0902.png)
 
