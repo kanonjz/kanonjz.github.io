@@ -52,4 +52,6 @@ GET /_search
 
 3）当NODE3获取到了所有shard返回的文档后，NODE3将它们合并成最终的结果集，返回给客户端。
 
+## 参考
+[Distributed Search Execution](https://www.elastic.co/guide/en/elasticsearch/guide/current/distributed-search.html)
 <br><br><br><br>
