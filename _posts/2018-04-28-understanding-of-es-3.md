@@ -34,9 +34,9 @@ GET /_search
 
 ![Query](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0901.png)
 
-1)客户端发送搜索请求给NODE3，NODE3会创建一个长度为from+size的空优先级队列.
+1) 客户端发送搜索请求给NODE3，NODE3会创建一个长度为from+size的空优先级队列.
 
-2)NODE3转发这个搜索请求到索引中的每个分片（主分片或副本分片），每一个分片都会在本地执行请求，并将结果保存到一个长度为from+size的优先级队列。
+2) NODE3转发这个搜索请求到索引中的每个分片（主分片或副本分片），每一个分片都会在本地执行请求，并将结果保存到一个长度为from+size的优先级队列。
 
 3）每一个分片将文档的ID以及该文档在本地优先级队列中的排序值返回给协调节点NODE3（注意这一步并非返回完整文档），NODE3会把这些值合并到总的优先级队列里产生全局的排序结果（类似归并排序）。
 
@@ -44,8 +44,10 @@ GET /_search
 
 ![Fetch](https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_0902.png)
 
-1)协调节点NODE3判断哪些文档需要被取回，并发送GET请求到相关的shard。
+1) 协调节点NODE3判断哪些文档需要被取回，并发送GET请求到相关的shard。
 
 2）每个收到GET请求的shard会加载文档内容并将其返回给协调节点NODE3。
 
 3）一旦所有文档都被取回，NODE3就会将最终结果集返回给客户端。
+
+<br><br><br><br>
