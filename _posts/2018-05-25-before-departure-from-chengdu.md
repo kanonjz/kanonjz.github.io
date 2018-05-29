@@ -4,7 +4,7 @@ title: "写于离开成都前"
 subtitle:   ""
 date:       2018-05-28
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/374866/pexels-photo-374866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+header-img: "https://images.pexels.com/photos/754587/pexels-photo-754587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags:
 - 生活
 ---
