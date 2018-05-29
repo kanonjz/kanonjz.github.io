@@ -4,7 +4,7 @@ title: "写于离开成都前"
 subtitle:   ""
 date:       2018-05-28
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/1040471/pexels-photo-1040471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+header-img: "https://images.pexels.com/photos/374866/pexels-photo-374866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags:
 - 生活
 ---
@@ -72,3 +72,4 @@ tags:
 生活不知从何时开始，多了几分漂泊和随性，走走停停，停停走走，于是这么下来，一路野蛮生长，一路吸收混沌能量，那些在当初看起来任性妄为，无足轻重的经历，却在某日连点成线，开花结果。
 
 如果你问我未来会怎样呢，我不知道，但我会告诉你初心和勇气永远是个好东西。
+<br><br><br><br>
