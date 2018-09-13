@@ -3,6 +3,6 @@
 Hey，我是Kanon，Geek & Climber & Marathon Runner。[电子科技大学](http://www.uestc.edu.cn/)在读本科生。
 
 #### Contact Me
-- Email: kanonjz@gmail.com
+- Email: `echo 'a2Fub25qekBnbWFpbC5jb20='|base64 -D`
 - WeChat: kanonjz
 <br><br><br><br><br>
