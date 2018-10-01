@@ -1,3 +1,14 @@
+---
+layout:     post
+title: "分布式系统基本原理"
+subtitle:   ""
+date:       2018-06-23
+author:     "Kanon"
+header-img: "https://images.pexels.com/photos/1047920/pexels-photo-1047920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+tags:
+- 分布式系统
+---
+
 ## 分布式系统定义
 分布式系统是一个软件组件分布在不同的计算机上，彼此之间仅仅通过消息传递进行通信和协调的系统。
 
