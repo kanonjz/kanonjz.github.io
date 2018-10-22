@@ -4,7 +4,7 @@ title: "雪山行"
 subtitle:   ""
 date:       2018-10-10
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/1153838/pexels-photo-1153838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+header-img: "https://images.pexels.com/photos/842155/pexels-photo-842155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 tags:
 - 生活
 ---
