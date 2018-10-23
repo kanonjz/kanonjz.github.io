@@ -49,7 +49,7 @@ tags:
 
 ![](http://ojydvou4n.bkt.clouddn.com/banji-5.jpg)
 
-![](http://ojydvou4n.bkt.clouddn.com/banji-8.jpg)
+![](http://ojydvou4n.bkt.clouddn.com/banji-7.jpg)
 <br><br><br><br>
 
 
