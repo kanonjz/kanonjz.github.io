@@ -21,7 +21,7 @@ JVM 每次只会使用 Eden 和其中的一块 Survivor 区域来为对象服务
 ## 老年代
 老年代的生命周期较长，一般都在新生代经过多轮Minor GC的洗礼，默认是15次。  
 
-![新生代老年代](http://ojydvou4n.bkt.clouddn.com/%E6%96%B0%E7%94%9F%E4%BB%A3%E8%80%81%E5%B9%B4%E4%BB%A3.png)
+![新生代老年代](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/%E6%96%B0%E7%94%9F%E4%BB%A3%E8%80%81%E5%B9%B4%E4%BB%A3.png)
 
 ## 永久代
 永久代存放的主要是类的信息，在类被加载的时候会被放入永久代，在主程序运行期间永久代是不会被GC清理。  
@@ -37,5 +37,5 @@ GC分为两种：Minor GC、Full GC
 
 **特殊情况**：对于比较大的对象（即需要分配一块较大的连续内存空间）则是直接进入老年代。  
 
-![复制算法](http://ojydvou4n.bkt.clouddn.com/%E5%A4%8D%E5%88%B6%E7%AE%97%E6%B3%95.png)
+![复制算法](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/%E5%A4%8D%E5%88%B6%E7%AE%97%E6%B3%95.png)
 <br><br><br><br>
