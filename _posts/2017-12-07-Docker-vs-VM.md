@@ -19,7 +19,7 @@ Consider this diagram comparing virtual machines to containers:
 Virtual machines (VMs) are an abstraction of physical hardware turning one server into many servers. The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an operating system, the application, necessary binaries and libraries - taking up tens of GBs. VMs can also be slow to boot.
 
 #### Container diagram
-![Container](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/container-vm-whatcontaine.png)
+![Container](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/container-vm-whatcontainer.png)
 Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
 <br><br>
 
@@ -48,9 +48,9 @@ Containers are an abstraction at the app layer that packages code and dependenci
 虚拟机更擅长于彻底隔离整个运行环境。例如，云服务提供商通常采用虚拟机技术隔离不同的用户。而Docker通常用于隔离不同的应用，例如前端，后端以及数据库。
 
 ## 参考
-![What is a Container - A standardized unit of software](https://www.docker.com/what-container#/package_software)
+[What is a Container - A standardized unit of software](https://www.docker.com/what-container#/package_software)
 
 ## 附上可爱的Docker鲸鱼
-![docker](http://oyrpkn4bk.bkt.clouddn.com/docker.png)
+![docker](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/docker.png)
 
 <br><b><br><br>
