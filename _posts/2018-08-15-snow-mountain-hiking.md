@@ -19,7 +19,7 @@ tags:
 
 下山的时候，和同伴开玩笑，在山上会退化成没有什么欲望的原始人类，而一回到现代社会，又会慢慢地被各种欲望所缠身。四千多米的雪山上，我只要有最基本的温暖、食物，一方帐篷保证我的睡眠，我就感到非常的满足，马斯洛需求一下子下降到最低的一级，也就是生存的基本需求。但一旦回归到日常生活，各种各样的欲望会随着周围的环境的变好而慢慢地生长，对物质的欲望也好，对现状的不满足也罢，都反映出人性里不知满足贪婪的一面。我不是圣人更不是看破红尘的僧人，凡夫俗子而已，面对欲望，该疏导的疏导，该打消的打消，能满足的满足，不能满足的好好努力去实现它。而欲望，如果要用更高尚更正面的词来包装，那就是梦想。这个欲望在你的内心有多强烈，你对梦想就会有多执着。夜深人静之时，当一切都归于平静，只愿自己拥有那一份对欲望也好梦想也罢的坦诚和执着，如当年在白茫茫雪山上的虔诚祷告。
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-6.jpg)
+![banji-6](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-6.jpg)
 
 从杭州回学校也呆了两个月将近，没有给自己太大的压力。
 
@@ -39,17 +39,17 @@ tags:
 
 此刻，刚入秋的成都虽有些许凉意，我在温暖的房间里，耳机流淌着Dennis Kuo的轻音乐，再也回忆不起那时被冰雪环绕和与世隔绝的感觉。
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-1.jpg)
+![banji-1](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-1.jpg)
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-2.jpg)
+![banji-2](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-2.jpg)
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-3.jpg)
+![banji-3](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-3.jpg)
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-4.jpg)
+![banji-4](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-4.jpg)
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-5.jpg)
+![banji-5](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-5.jpg)
 
-![](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-7.jpg)
+![banji-7](http://kanon-blog.oss-cn-hangzhou.aliyuncs.com/banji-7.jpg)
 <br><br><br><br>
 
 
