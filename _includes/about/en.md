@@ -7,6 +7,5 @@ Hi, I am **Kanon**, mixture of programmer, marathon runner, climber. I like codi
 
 #### Contact Me
 - Email: kanonjz@gmail.com
-- WeChat: kanonjz
 <br><br><br><br><br>
 
