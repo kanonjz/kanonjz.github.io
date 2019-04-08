@@ -4,5 +4,4 @@ Hey，我是Kanon，Geek & Climber & Marathon Runner。[电子科技大学](http
 
 #### Contact Me
 - Email: `echo 'a2Fub25qekBnbWFpbC5jb20='|base64 -D`
-- WeChat: kanonjz
 <br><br><br><br><br>
