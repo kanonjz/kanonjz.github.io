@@ -1,6 +1,7 @@
 > 筚路蓝缕，以启山林  
 
-Hey，我是Kanon，Geek & Climber & Marathon Runner。[电子科技大学](http://www.uestc.edu.cn/)在读本科生。
+Hey，I’m Kanon，Bug Producer & Mountain Hiker & Marathon Runner.<br><br>
+Location: Kowloon Tong, Hong Kong
 
 #### Contact Me
 - Email: `echo 'a2Fub25qekBnbWFpbC5jb20='|base64 -D`
