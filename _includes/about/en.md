@@ -7,6 +7,6 @@ Hey，I’m Kanon，Bug Producer & Mountain Hiker & Marathon Runner.
 Location: Kowloon Tong, Hong Kong
 
 #### Contact Me
-- Email: kanonjz@gmail.com
+- Email: echo 'a2Fub25qekBnbWFpbC5jb20='|base64 -D
 <br><br><br><br><br>
 
