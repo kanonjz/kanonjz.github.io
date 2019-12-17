@@ -1,6 +1,7 @@
 > 筚路蓝缕，以启山林  
 
-Hey，I’m Kanon，Bug Producer & Mountain Hiker & Marathon Runner.<br><br>
+Hey，I’m Kanon，Bug Producer & Mountain Hiker & Marathon Runner.
+
 Location: Kowloon Tong, Hong Kong
 
 #### Contact Me
