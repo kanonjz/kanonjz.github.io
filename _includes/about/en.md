@@ -2,7 +2,7 @@
 
 > Coding my ambition.
 
-Hey，I’m Kanon，Bug Producer & Mountain Hiker & Marathon Runner.
+Hey, I’m Kanon, Bug Producer & Mountain Hiker & Marathon Runner.
 
 Location: Kowloon Tong, Hong Kong
 
