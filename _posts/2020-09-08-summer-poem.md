@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: "Summer"
-subtitle:   ""
+title: "夏"
+subtitle:   "Summer"
 date:       2020-9-8
 author:     "Kanon"
 header-img: "https://images.pexels.com/photos/3330118/pexels-photo-3330118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
