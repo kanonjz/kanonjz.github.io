@@ -1,3 +1,14 @@
+---
+layout:     post
+title: "岛"
+subtitle:   "Island"
+date:       2020-11-17
+author:     "Kanon"
+header-img: "https://images.pexels.com/photos/694597/pexels-photo-694597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+tags:
+- 诗
+---
+
 漫长的海岸线
 
 蜿蜒着大地的思念
