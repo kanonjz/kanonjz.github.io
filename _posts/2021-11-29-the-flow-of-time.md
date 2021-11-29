@@ -4,7 +4,7 @@ title: "此刻躊躇的流轉光陰"
 subtitle:   "The flow of time hesitates at this moment."
 date:       2021-11-29
 author:     "Kanon"
-header-img: "https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+header-img: "https://images.pexels.com/photos/2678/nature-sky-sunny-clouds.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 tags:
 - 诗
 ---
