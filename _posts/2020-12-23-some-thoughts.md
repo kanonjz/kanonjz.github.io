@@ -33,4 +33,7 @@ tags:
 —— 2021.03.25
 <br/><br/>
 
+> Life is a flow, you cannot control it. What you can only do is steer the flow and go with the flow, savoring every moment. <br/>
+—— 2022.07.07
+
 <br/><br/><br/>
