@@ -36,4 +36,7 @@ tags:
 > Life is a flow, you cannot control it. What you can only do is steer the flow and go with the flow, savoring every moment. <br/>
 —— 2022.07.07
 
+> 挫其锐，解其纷，和其光，同其尘。—— 《道德经》
+—— 2023.06.17
+
 <br/><br/><br/>
