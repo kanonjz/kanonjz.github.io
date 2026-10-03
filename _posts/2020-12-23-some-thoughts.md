@@ -42,4 +42,7 @@ tags:
 > 夫唯不争，故天下莫能与之争。—— 《道德经》<br/>
 —— 2023.06.26
 
+> You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars. —— Elon Musk <br/>
+—— 2026.10.03
+
 <br/><br/><br/>
